@@ -34,7 +34,7 @@ const Foods = () => {
           categories.map((category, index) => (
             <button
               key={index}
-              className={`px-4 py-2 font-semibold cursor-pointer rounded-md ${
+              className={`px-4 py-2 font-semibold text-[14px] cursor-pointer rounded-md ${
                 selectedCategory === category ? "bg-green-400" : "bg-gray-200"
               }`}
               onClick={() => setSelectedCategory(category)}
