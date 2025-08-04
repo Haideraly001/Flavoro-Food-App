@@ -1,10 +1,13 @@
 import React from "react";
 import "./App.css"; // Assuming you have some styles in App.css
+import Header from "./components/Header";
+import Foods from "./components/Foods";
 
 const App = () => {
   return (
     <>
-      <h1>Haider</h1>
+      <Header />
+      <Foods />
     </>
   );
 };
